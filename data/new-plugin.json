@@ -1,0 +1,15 @@
+{
+    "files": [
+        {"source": "index-dev.simplate", "destination": "index-dev.html"},
+        {"source": "/src/ApplicationModule.simplate", "destination": "/src/ApplicationModule.js"},
+        {"source": "/src/ApplicationViews.simplate", "destination": "/src/ApplicationViews.js"},
+        {"source": "/src/Views/Example/List.simplate", "destination": "/src/Views/Example/List.js"},
+        {"source": "/src/Views/Example/Detail.simplate", "destination": "/src/Views/Example/Detail.js"},
+        {"source": "/src/Views/Example/Edit.simplate", "destination": "/src/Views/Example/Edit.js"},
+        {"source": "/localization/en.simplate", "destination": "/localization/en.js"},
+        {"source": "/content/css/app.simplate", "destination": "/content/css/${pluginName}.css"},
+        {"source": "/configuration/development.simplate", "destination": "/configuration/development.js"},
+        {"source": "/configuration/production.simplate", "destination": "/configuration/production.js"},
+        {"source": "/build/release.simplate", "destination": "/build/release.jsb2"}
+    ]
+}

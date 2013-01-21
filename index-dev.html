@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no,email=no,address=no" />
+
+    <title>Contatta Dev Tools</title>
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="lib/argos-sdk/content/css/layout.css" />
+    <link type="text/css" rel="stylesheet" href="lib/argos-sdk/content/css/theme.css" />
+    <link type="text/css" rel="stylesheet" href="content/css/app.css" />
+    <link type="text/css" rel="stylesheet" href="content/css/theme.css" />
+    <link type="text/css" rel="stylesheet" href="content/css/animations.css" />
+
+    <!-- JSON -->
+    <script type="text/javascript" src="lib/argos-sdk/libraries/json2.js"></script>
+
+    <!-- iScroll -->
+    <script type="text/javascript" src="lib/argos-sdk/libraries/iscroll-lite.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    </script>
+
+    <!-- SData Client Library -->
+    <script type="text/javascript" src="lib/argos-sdk/libraries/sdata/sdata-client-dependencies-debug.js"></script>
+    <script type="text/javascript" src="lib/argos-sdk/libraries/sdata/sdata-client-debug.js"></script>
+
+    <!-- Moment.js -->
+    <script type="text/javascript" src="lib/argos-sdk/libraries/moment/min/moment.min.js"></script>
+
+    <!-- Simplate -->
+    <script type="text/javascript" src="lib/argos-sdk/libraries/Simplate.js"></script>
+
+    <!-- Adobe AIR -->
+    <script type="text/javascript" src="lib/adobe-air/AIRAliases.js"></script>
+
+    <!-- Dojo -->
+    <script type="text/javascript" src="lib/argos-sdk/libraries/dojo/dojo/dojo.js" data-dojo-config="parseOnLoad:false, async:true, blankGif:'content/images/blank.gif'"></script>
+    <script type="text/javascript">
+        require({
+            baseUrl: "./",
+            packages: [
+                { name: 'dojo', location: 'lib/argos-sdk/libraries/dojo/dojo' },
+                { name: 'dijit', location: 'lib/argos-sdk/libraries/dojo/dijit' },
+                { name: 'dojox', location: 'lib/argos-sdk/libraries/dojo/dojox' },
+                { name: 'argos', location: 'lib/argos-sdk/src' },
+                { name: 'Mobile/ContattaDevTools', location: 'src' }
+            ]});
+    </script>
+
+    <script type="text/javascript">
+        var destroy = function() {
+            App.destroy();
+        };
+        (function() {
+            var application = 'Mobile/ContattaDevTools/Application',
+                    configuration = [
+                        'configuration/development'
+                    ];
+            require([application].concat(configuration), function(application, configuration) {
+                var localization = [
+                    'localization/en'
+                ];
+                var instance = new application(configuration);
+
+                instance.activate();
+                instance.startup();
+                instance.run();
+
+//                require(['dojo/domReady!'].concat(localization), function(ready) {
+//                });
+            });
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>

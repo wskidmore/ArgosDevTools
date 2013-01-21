@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.1.0" build="16076" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="fzip.swf">
+      <script name="deng/fzip/FZipErrorEvent" mod="1182535144000" signatureChecksum="1883984201" >
+        <def id="deng.fzip:FZipErrorEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipEvent" mod="1288987473000" signatureChecksum="2720030979" >
+        <def id="deng.fzip:FZipEvent" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipLibrary" mod="1182769638000" signatureChecksum="3517429988" >
+        <def id="deng.fzip:FZipLibrary" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="ReferenceError" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="deng.fzip:FZipEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="deng.fzip:FZipErrorEvent" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="ReferenceError" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="deng.fzip:FZip" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="deng.fzip:FZipEvent" type="s" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZip" mod="1288982826000" signatureChecksum="2002209824" >
+        <def id="deng.fzip:FZip" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="deng.fzip:FZipEvent" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:HTTPStatusEvent" type="e" /> 
+        <dep id="deng.fzip:FZipErrorEvent" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="deng.fzip:FZipFile" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flash.utils:IDataOutput" type="s" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="deng/utils/ChecksumUtil" mod="1259266387000" signatureChecksum="3478732995" >
+        <def id="deng.utils:ChecksumUtil" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_0dc3873140fc2bf217085ce9a22391d950a2a557fe2312eb6c4679fc2f5194b0_flash_display_Sprite" mod="1289001467239" signatureChecksum="2949871963" >
+        <def id="_0dc3873140fc2bf217085ce9a22391d950a2a557fe2312eb6c4679fc2f5194b0_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipFile" mod="1289001466000" signatureChecksum="1048463673" >
+        <def id="deng.fzip:FZipFile" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="deng.fzip:FZip" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="deng.utils:ChecksumUtil" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="flash.utils:IDataOutput" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="52b6358b4d8eb97f66b6c833a5a2f5a30902cd19fc52d10dfb8035deb047510e"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

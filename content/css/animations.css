@@ -1,0 +1,39 @@
+
+.has-expanded-navigation .quick-nav {
+    -webkit-animation-duration: 150ms;
+    -webkit-animation-name: slidein;
+    -webkit-animation-fill-mode: both;
+}
+.has-expanded-navigation .layout-center {
+    -webkit-animation-duration: 150ms;
+    -webkit-animation-name: slidein-margin;
+    -webkit-animation-fill-mode: both;
+}
+.has-collapsed-navigation .quick-nav {
+    -webkit-animation-duration: 150ms;
+    -webkit-animation-name: slideout;
+    -webkit-animation-fill-mode: both;
+}
+.has-collapsed-navigation .layout-center {
+    -webkit-animation-duration: 150ms;
+    -webkit-animation-name: slideout-margin;
+    -webkit-animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes slidein {
+    0% { width: 0%; }
+    100% { width: 90%; }
+}
+@-webkit-keyframes slidein-margin {
+    0% { margin-left: 0%; }
+    100% { margin-left: 90%; }
+}
+@-webkit-keyframes slideout {
+    0% { width: 90%; }
+    100% { width: 0%; }
+}
+@-webkit-keyframes slideout-margin {
+    0% { margin-left: 90%; }
+    100% { margin-left: 0%; }
+}

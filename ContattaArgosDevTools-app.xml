@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<application xmlns="http://ns.adobe.com/air/application/1.5"> 
+    <id>contatta.argos.DevTools</id> 
+    <version>0.1</version> 
+    <filename>Contatta Argos Dev Tools</filename> 
+    <initialWindow> 
+        <content>shell.html</content>
+        <visible>true</visible> 
+        <width>600</width> 
+        <height>800</height> 
+    </initialWindow> 
+</application>
