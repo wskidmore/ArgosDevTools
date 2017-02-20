@@ -8,7 +8,7 @@ define('configuration/development', ['Mobile/ContattaDevTools/ApplicationModule'
             'crm': {
                 isDefault: true,
                 offline: true,
-                url: 'http://localhost/',
+                url: 'http://localhost:300/',
                 json: true
             }
         },
